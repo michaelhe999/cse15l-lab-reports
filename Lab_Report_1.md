@@ -5,7 +5,8 @@
 ### without arguments
 
 ```
-[user@sahara ~]$ cd 
+[user@sahara ~]$ cd
+[user@sahara ~]$
 ```
 or 
 ```
