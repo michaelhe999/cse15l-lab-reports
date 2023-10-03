@@ -38,7 +38,7 @@ bash: cd: lecture1/messages/en-us.txt: Not a directory
 ```
 The starting working directory for this code block is `user@sahara`. It does not change. Because the argument after the command `cd` is not a directory, the command does not work and throws an error. 
 
-## ls Command
+## `ls` Command
 
 ### without arguments
 
@@ -70,7 +70,7 @@ The starting working directory for this code block is `user@sahara`; it does not
 
 This code produces no errors.
 
-## cat Command
+## `cat` Command
 
 ### without arguments
 
