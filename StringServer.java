@@ -15,33 +15,22 @@ class Handler implements URLHandler {
             }
             return returns;
         }
-        else if (url.getPath().equals("/add")) {
+        else if (url.getPath().equals("/add-message")) {
             String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
                     added.add(parameters[1]);
-                    return String.format("Added %s!", parameters[1]);
-                }
-        } 
-        else {
-            if (url.getPath().contains("/search")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("s")) {
                     String returns = "";
                     for(int i = 0; i < added.size(); i++){
-                        if(added.get(i).contains(parameters[1])){
-                            returns = returns + added.get(i) + "\n";
-                        }
+                        returns = returns + added.get(i) + "\n";
                     }
                     return returns;
                 }
-            }
+            } 
             return "404 Not Found!";
         }
-    return "404 Not Found!";
-    }
 }
 
-class SearchEngine {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
