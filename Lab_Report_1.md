@@ -13,9 +13,9 @@ or
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-The starting working directory for the first code block: `/home`; it did not change. The starting working directory for the second code block: `lecture1`; it changed to `/home`. 
+The starting working directory for the first code block: `~` or `/home`; it did not change. The starting working directory for the second code block: `lecture1`; it changed to `/home`. 
 
-The `cd` command without arguments returns to the root directory, which in the case of the first code block does not change the prompt, but in the second code block the prompt changes. 
+The `cd` command without arguments returns to the home directory, which in the case of the first code block does not change the prompt, but in the second code block the prompt changes. 
 
 This code produces no errors.
 
