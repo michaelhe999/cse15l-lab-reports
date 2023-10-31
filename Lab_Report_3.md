@@ -51,5 +51,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+For the reverseInPlace function, the bug is that the method rewrites its elements as it is trying to reverse, and thus later elements are never actually reversed. The fix is setting temporary values, such that the actual element that should be switched between two indexes is saved elsewhere and not overwritten. 
+
+## Part 2 - Researching commands
 
 
