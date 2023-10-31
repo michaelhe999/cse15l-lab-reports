@@ -17,7 +17,7 @@ class Handler implements URLHandler {
         if(url.getPath().equals("/")){
             String returns = "";
             for(int i = 0; i < added.size(); i++){
-                returns = returns + added.get(i) + "\n";
+                returns = returns + (1+i) + ". " + added.get(i) + "\n";
             }
             return returns;
         }
@@ -27,7 +27,7 @@ class Handler implements URLHandler {
                     added.add(parameters[1]);
                     String returns = "";
                     for(int i = 0; i < added.size(); i++){
-                        returns = returns + added.get(i) + "\n";
+                        returns = returns + (1+i) + ". " + added.get(i) + "\n";
                     }
                     return returns;
                 }
@@ -48,7 +48,6 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-
 
 ```
 
