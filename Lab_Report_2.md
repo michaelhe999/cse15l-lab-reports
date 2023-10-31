@@ -52,7 +52,7 @@ class StringServer {
 ```
 
 ### First `/add-message`
-![Image](StringServerRunning1.png)
+![Image](StringServerRunningFirst.png)
 
 * Which methods in your code are called?
   
@@ -65,7 +65,7 @@ class StringServer {
   The ArrayList `added` goes from being empty to having a new element at index 0, `skdjf`. Other variables are not fields because they do not belong to the overall class. 
 
 ### Second `/add-message`
-![Image](StringServerRunning2.png)
+![Image](StringServerRunningSecond.png)
 
 * Which methods in your code are called?
   
