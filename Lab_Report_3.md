@@ -28,9 +28,9 @@ input: {0} expected: {0} output: {0}
 ```
 #### Symptoms:
 ##### Failing Input:
-![Image](FailingInputTestRun)
+![Image](FailingInputTestRun.png)
 ##### Passing Input:
-![Image](PassingInputTestRun)
+![Image](PassingInputTestRun.png)
 
 #### Buggy Code:
 ```
