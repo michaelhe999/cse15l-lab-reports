@@ -272,4 +272,5 @@ technical/biomed/1476-4598-2-3.txt:DNA strand
 ```
 This command done over multiple files also outputs the files where the pattern occurs. Aside from the usage in the previous example, it can also be used to see if a file has multiple occurences of a pattern. 
 
+## Citations:
 {1} GeeksforGeeks. (2022, November 15). GREP command in unix/linux. grep command in Unix/Linux. https://www.geeksforgeeks.org/grep-command-in-unixlinux/# 
