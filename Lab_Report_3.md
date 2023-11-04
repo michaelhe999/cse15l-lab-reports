@@ -1,4 +1,4 @@
-x# Lab 3
+# Lab 3
 
 ## Part 1 - Bugs
 
