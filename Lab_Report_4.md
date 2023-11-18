@@ -9,8 +9,8 @@
 ## Step 6
 ![cd](cd.png)
 ![script](script.png)
-![test.sh](test_vim.png)
-![test done](test_done.png)
+![test.sh](test vim.png)
+![test done](script done.png)
 ![test](test.png)
 
 ## Step 7
@@ -18,7 +18,7 @@
 ![edit](edit.png)
 
 ## Step 8
-![test again](good_tests.png)
+![test again](good tests.png)
 
 ## Step 9
 ![add](add.png)
