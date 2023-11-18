@@ -1,5 +1,30 @@
 # Lap Report 4
 
+## Step 4
+![ssh](ssh.png)
+
+## Step 5
+![clone](clone.png)
+
+## Step 6
+![cd](cd.png)
+![script](script.png)
+![test.sh](test_vim.png)
+![test done](test_done.png)
+![test](test.png)
+
+## Step 7
+![code](code.png)
+![edit](edit.png)
+
+## Step 8
+![test again](good_tests.png)
+
+## Step 9
+![add](add.png)
+![commit](commit.png)
+![push](push.png)
+
 ```
 <up><enter> (The ssh cs15lfa23li@ieng6.ucsd.edu command was 1 up in search history, so I used the up arrow to access it).
 git clo<tab> <ctrl + v><enter> (I copied the git link earlier; the entire command is git clone https://github.com/michaelhe999/lab7.git)
