@@ -36,8 +36,8 @@ The first command changes directories to lab7/; the entire command is cd lab7/. 
 ### Step 7
 ```
 vi L<tab>.<tab><enter> 
-:44s/1/2<enter> (Goes to line 44, finds the first 1 and replaces it with a 2)
-:wq<enter> (Saves and quits)
+:44s/1/2<enter> 
+:wq<enter> 
 ```
 ![code](code.png)
 ![edit](edit.png)
@@ -45,21 +45,21 @@ The full command run is vi ListExamples.java; this opens ListExamples.java in vi
 
 ### Step 8
 ```
-<up><up><enter> (Runs test.sh)
+<up><up><enter> 
 ```
 ![test again](goodTests.png)
 This runs bash test.sh again, which runs the test file again (compiles the files, runs the files). 
 
 ### Step 9
 ```
-git ad<tab>L<tab><enter> (Adds ListExamples.java)
-git com<tab> -m "done" (Commits changes)
-git push (Pushes changes)
+git ad<tab>L<tab><enter> 
+git com<tab> -m "done" 
+git push 
 ```
 ![add](add.png)
 ![commit](commit.png)
 ![push](push.png)
-This adds the changed file to the files to be committed, commits the file to Github with the "done" message, and pushes it to Github. 
+This adds the changed file to the files to be committed (git add ListExamples.java, commits the file to Github with the "done" message, and pushes it to Github. 
 
 
 
