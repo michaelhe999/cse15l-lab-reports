@@ -98,8 +98,8 @@ public class ListExamplesTests {
 			}
 		}
     	List<String> l1 = new ArrayList<String>(Arrays.asList("Abc", "BCd", "C3r5u=", "kjashf2", "3jjfas"));
-		assertArrayEquals(new String[]{ "Abc", "BCd", "C3r5u="}, ListExamples.filter(l1, new isUpperCase()).toArray());
-		assertArrayEquals(new String[]{ "C3r5u=", "kjashf2", "3jjfas"}, ListExamples.filter(l1, new containsNumber()).toArray());
+	assertArrayEquals(new String[]{ "Abc", "BCd", "C3r5u="}, ListExamples.filter(l1, new isUpperCase()).toArray());
+	assertArrayEquals(new String[]{ "C3r5u=", "kjashf2", "3jjfas"}, ListExamples.filter(l1, new containsNumber()).toArray());
 	}	
 }
 ```
